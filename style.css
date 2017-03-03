@@ -100,6 +100,12 @@ body, html {
   animation: fade-8 60s;
   background: linear-gradient(2deg, #e3e6e9, #d0deef 10%, #b8ceeb 20%, #92afd8 30%, #88a4ce 40%, #5f7fac 55%, #37486b); }
 
+@keyframes progress {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
+
 .hero {
   font-family: sans-serif;
   font-weight: 100;
@@ -133,3 +139,14 @@ body, html {
   font-size: 12px;
   font-family: sans-serif;
   text-decoration: none; }
+
+.progress {
+  animation-timing-function: linear;
+  animation: progress 60s;
+  background: white;
+  opacity: 0.3;
+  height: 5px;
+  top: 0;
+  position: absolute;
+  left: 0;
+  z-index: 5; }
