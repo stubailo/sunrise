@@ -1,0 +1,124 @@
+body, html {
+  padding: 0;
+  margin: 0; }
+
+@keyframes fade-1 {
+  0% {
+    opacity: 0; }
+  12% {
+    opacity: 1; } }
+
+@keyframes fade-2 {
+  0% {
+    opacity: 0; }
+  8% {
+    opacity: 0; }
+  22% {
+    opacity: 1; } }
+
+@keyframes fade-3 {
+  0% {
+    opacity: 0; }
+  18% {
+    opacity: 0; }
+  32% {
+    opacity: 1; } }
+
+@keyframes fade-4 {
+  0% {
+    opacity: 0; }
+  28% {
+    opacity: 0; }
+  42% {
+    opacity: 1; } }
+
+@keyframes fade-5 {
+  0% {
+    opacity: 0; }
+  38% {
+    opacity: 0; }
+  52% {
+    opacity: 1; } }
+
+@keyframes fade-6 {
+  0% {
+    opacity: 0; }
+  48% {
+    opacity: 0; }
+  52% {
+    opacity: 1; } }
+
+@keyframes fade-7 {
+  0% {
+    opacity: 0; }
+  58% {
+    opacity: 0; }
+  62% {
+    opacity: 1; } }
+
+@keyframes fade-8 {
+  0% {
+    opacity: 0; }
+  68% {
+    opacity: 0; }
+  72% {
+    opacity: 1; } }
+
+.background-1 {
+  background: linear-gradient(5deg, #5d4635, #392c24 20%, #1f1713 50%, #120c0b 75%, #090605); }
+
+.background-2 {
+  animation: fade-1 60s;
+  background: linear-gradient(5deg, #ae6c41, #9d7659 8%, #524442 15%, #2f221f 30%, #090605); }
+
+.background-3 {
+  animation: fade-2 60s;
+  background: linear-gradient(5deg, #fd9d6a, #fdb56a 3%, #faf6de 10%, #cfc8d0 20%, #73697d 30%, #2e2230 45%, #251f2b 70%, #0a060d); }
+
+.background-4 {
+  animation: fade-3 60s;
+  background: linear-gradient(5deg, #fffa82, #fefed8 5%, #f8e7e6 15%, #b4b0c6 30%, #4f4d64 50%, #433f53 70%, #262437); }
+
+/* 57 */
+.background-5 {
+  animation: fade-4 60s;
+  background: linear-gradient(5deg, #ee9451, #facc81 5%, #fdfae0 15%, #e1d8ce 30%, #9b7c7e 50%, #625956 70%, #31252d); }
+
+.background-6 {
+  animation: fade-5 60s;
+  background: linear-gradient(5deg, #e5945d, #fdc77f 5%, #f9dca0 10%, #dfdbc8 15%, #b7beb9 30%, #707277 60%, #4a474c); }
+
+.background-7 {
+  animation: fade-6 60s;
+  background: linear-gradient(5deg, #faefd0, #e3e7d1 5%, #d3ded8 15%, #a7c1cb 30%, #79899a 50%, #5d7381); }
+
+.background-8 {
+  animation: fade-7 60s;
+  background: linear-gradient(5deg, #b6c0c1, #a6b9c8 10%, #91a7c0 15%, #6d92b3 25%, #506b92 50%, #365073 75%, #2f4868); }
+
+.background-9 {
+  animation: fade-8 60s;
+  background: linear-gradient(5deg, #e3e6e9, #d0deef 10%, #b8ceeb 20%, #92afd8 30%, #88a4ce 40%, #5f7fac 55%, #37486b); }
+
+.hero {
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+  top: 70%;
+  font-size: 20px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  text-transform: uppercase;
+  opacity: 0.3; }
+
+.container {
+  flex-direction: row;
+  position: fixed;
+  height: 100%;
+  width: 100%; }
+
+.grad {
+  position: absolute;
+  width: 100%;
+  height: 100%; }

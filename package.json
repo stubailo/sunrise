@@ -1,0 +1,22 @@
+{
+  "name": "sunset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass -w style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stubailo/sunrise.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stubailo/sunrise/issues"
+  },
+  "homepage": "https://github.com/stubailo/sunrise#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  }
+}

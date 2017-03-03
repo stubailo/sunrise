@@ -1,0 +1,207 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+$fade-duration: 60s;
+
+@keyframes fade-1 {
+  0%   { opacity: 0; }
+  12% { opacity: 1; }
+}
+
+@keyframes fade-2 {
+  0%  { opacity: 0; }
+  8%   { opacity: 0; }
+  22% { opacity: 1; }
+}
+
+@keyframes fade-3 {
+  0%  { opacity: 0; }
+  18%   { opacity: 0; }
+  32% { opacity: 1; }
+}
+
+@keyframes fade-4 {
+  0%  { opacity: 0; }
+  28%   { opacity: 0; }
+  42% { opacity: 1; }
+}
+
+@keyframes fade-5 {
+  0%  { opacity: 0; }
+  38%   { opacity: 0; }
+  52% { opacity: 1; }
+}
+
+@keyframes fade-6 {
+  0%  { opacity: 0; }
+  48%   { opacity: 0; }
+  52% { opacity: 1; }
+}
+
+@keyframes fade-7 {
+  0%  { opacity: 0; }
+  58%   { opacity: 0; }
+  62% { opacity: 1; }
+}
+
+@keyframes fade-8 {
+  0%  { opacity: 0; }
+  68%   { opacity: 0; }
+  72% { opacity: 1; }
+}
+
+@mixin gradient-1() {
+  background: linear-gradient(
+    5deg,
+    rgb(93,	70,	53) ,
+    rgb(57,	44,	36) 20%,
+    rgb(31,	23,	19) 50%,
+    rgb(18,	12,	11) 75%,
+    rgb(9,	6,	5)
+  );
+}
+
+.background-1 {
+  @include gradient-1();
+}
+
+.background-2 {
+  animation: fade-1 $fade-duration;
+  background: linear-gradient(
+    5deg,
+    rgb(174,	108,	65) ,
+    rgb(157,	118,	89	) 8%,
+    rgb(82,	68,	66	) 15%,
+    rgb(47,	34,	31	) 30%,
+    rgb(9,	6,	5)
+  );
+}
+
+.background-3 {
+  animation: fade-2 $fade-duration;
+  background: linear-gradient(
+    5deg,
+    rgb(253,	157,	106	) ,
+    rgb(253,	181,	106		) 3%,
+    rgb(250,	246,	222		) 10%,
+    rgb(207,	200,	208		) 20%,
+    rgb(115,	105,	125	) 30%,
+    rgb(46,	34,	48	) 45%,
+    rgb(37,	31,	43	) 70%,
+    rgb(10,	6,	13	)
+  );
+}
+
+.background-4 {
+  animation: fade-3 $fade-duration;
+  background: linear-gradient(
+    5deg,
+    rgb(255,	250,	130		) ,
+    rgb(254,	254,	216			) 5%,
+    rgb(248,	231,	230			) 15%,
+    rgb(180,	176,	198			) 30%,
+    rgb(79,	77,	100		) 50%,
+    rgb(67,	63,	83		) 70%,
+    rgb(38,	36,	55		)
+  );
+}
+
+/* 57 */
+.background-5 {
+  animation: fade-4 $fade-duration;
+  background: linear-gradient(
+    5deg,
+    rgb(238,	148,	81			) ,
+    rgb(250,	204,	129				) 5%,
+    rgb(253,	250,	224				) 15%,
+    rgb(225,	216,	206				) 30%,
+    rgb(155,	124,	126			) 50%,
+    rgb(98,	89,	86			) 70%,
+    rgb(49,	37,	45			)
+  );
+}
+
+.background-6 {
+  animation: fade-5 $fade-duration;
+  background: linear-gradient(
+    5deg,
+    rgb(229,	148,	93				) ,
+    rgb(253,	199,	127					) 5%,
+    rgb(249,	220,	160					) 10%,
+    rgb(223,	219,	200					) 15%,
+    rgb(183,	190,	185				) 30%,
+    rgb(112,	114,	119				) 60%,
+    rgb(74,	71,	76				)
+  );
+}
+
+.background-7 {
+  animation: fade-6 $fade-duration;
+  background: linear-gradient(
+    5deg,
+    rgb(250,	239,	208					) ,
+    rgb(227,	231,	209						) 5%,
+    rgb(211,	222,	216						) 15%,
+    rgb(167,	193,	203						) 30%,
+    rgb(121,	137,	154					) 50%,
+    rgb(93,	115,	129					)
+  );
+}
+
+.background-8 {
+  animation: fade-7 $fade-duration;
+  background: linear-gradient(
+    5deg,
+    rgb(182,	192,	193						) ,
+    rgb(166,	185,	200							) 10%,
+    rgb(145,	167,	192							) 15%,
+    rgb(109,	146,	179							) 25%,
+    rgb(80,	107,	146						) 50%,
+    rgb(54,	80,	115							) 75%,
+    rgb(47,	72,	104						)
+  );
+}
+
+.background-9 {
+  animation: fade-8 $fade-duration;
+  background: linear-gradient(
+    5deg,
+    rgb(227,	230,	233							) ,
+    rgb(208,	222,	239								) 10%,
+    rgb(184,	206,	235								) 20%,
+    rgb(146,	175,	216								) 30%,
+    rgb(136,	164,	206							) 40%,
+    rgb(95,	127,	172								) 55%,
+    rgb(55,	72,	107							)
+  );
+}
+
+.hero {
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+  top: 70%;
+  font-size: 20px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  text-transform: uppercase;
+  opacity: 0.3;
+}
+
+.container {
+  // display: flex;
+  flex-direction: row;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.grad {
+  // flex: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
