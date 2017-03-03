@@ -103,7 +103,7 @@ body, html {
 @keyframes progress {
   0% {
     width: 0; }
-  100% {
+  70% {
     width: 100%; } }
 
 .hero {
