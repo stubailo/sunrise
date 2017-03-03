@@ -69,36 +69,36 @@ body, html {
 
 .background-2 {
   animation: fade-1 60s;
-  background: linear-gradient(5deg, #ae6c41, #9d7659 8%, #524442 15%, #2f221f 30%, #090605); }
+  background: linear-gradient(4deg, #ae6c41, #9d7659 8%, #524442 15%, #2f221f 30%, #090605); }
 
 .background-3 {
   animation: fade-2 60s;
-  background: linear-gradient(5deg, #fd9d6a, #fdb56a 3%, #faf6de 10%, #cfc8d0 20%, #73697d 30%, #2e2230 45%, #251f2b 70%, #0a060d); }
+  background: linear-gradient(4deg, #fd9d6a, #fdb56a 3%, #faf6de 10%, #cfc8d0 20%, #73697d 30%, #2e2230 45%, #251f2b 70%, #0a060d); }
 
 .background-4 {
   animation: fade-3 60s;
-  background: linear-gradient(5deg, #fffa82, #fefed8 5%, #f8e7e6 15%, #b4b0c6 30%, #4f4d64 50%, #433f53 70%, #262437); }
+  background: linear-gradient(3deg, #fffa82, #fefed8 5%, #f8e7e6 15%, #b4b0c6 30%, #4f4d64 50%, #433f53 70%, #262437); }
 
 /* 57 */
 .background-5 {
   animation: fade-4 60s;
-  background: linear-gradient(5deg, #ee9451, #facc81 5%, #fdfae0 15%, #e1d8ce 30%, #9b7c7e 50%, #625956 70%, #31252d); }
+  background: linear-gradient(3deg, #ee9451, #facc81 5%, #fdfae0 15%, #e1d8ce 30%, #9b7c7e 50%, #625956 70%, #31252d); }
 
 .background-6 {
   animation: fade-5 60s;
-  background: linear-gradient(5deg, #e5945d, #fdc77f 5%, #f9dca0 10%, #dfdbc8 15%, #b7beb9 30%, #707277 60%, #4a474c); }
+  background: linear-gradient(3deg, #e5945d, #fdc77f 5%, #f9dca0 10%, #dfdbc8 15%, #b7beb9 30%, #707277 60%, #4a474c); }
 
 .background-7 {
   animation: fade-6 60s;
-  background: linear-gradient(5deg, #faefd0, #e3e7d1 5%, #d3ded8 15%, #a7c1cb 30%, #79899a 50%, #5d7381); }
+  background: linear-gradient(2deg, #faefd0, #e3e7d1 5%, #d3ded8 15%, #a7c1cb 30%, #79899a 50%, #5d7381); }
 
 .background-8 {
   animation: fade-7 60s;
-  background: linear-gradient(5deg, #b6c0c1, #a6b9c8 10%, #91a7c0 15%, #6d92b3 25%, #506b92 50%, #365073 75%, #2f4868); }
+  background: linear-gradient(2deg, #b6c0c1, #a6b9c8 10%, #91a7c0 15%, #6d92b3 25%, #506b92 50%, #365073 75%, #2f4868); }
 
 .background-9 {
   animation: fade-8 60s;
-  background: linear-gradient(5deg, #e3e6e9, #d0deef 10%, #b8ceeb 20%, #92afd8 30%, #88a4ce 40%, #5f7fac 55%, #37486b); }
+  background: linear-gradient(2deg, #e3e6e9, #d0deef 10%, #b8ceeb 20%, #92afd8 30%, #88a4ce 40%, #5f7fac 55%, #37486b); }
 
 .hero {
   font-family: sans-serif;

@@ -52,7 +52,7 @@ $fade-duration: 60s;
   72% { opacity: 1; }
 }
 
-@mixin gradient-1() {
+.background-1 {
   background: linear-gradient(
     5deg,
     rgb(93,	70,	53) ,
@@ -63,14 +63,10 @@ $fade-duration: 60s;
   );
 }
 
-.background-1 {
-  @include gradient-1();
-}
-
 .background-2 {
   animation: fade-1 $fade-duration;
   background: linear-gradient(
-    5deg,
+    4deg,
     rgb(174,	108,	65) ,
     rgb(157,	118,	89	) 8%,
     rgb(82,	68,	66	) 15%,
@@ -82,7 +78,7 @@ $fade-duration: 60s;
 .background-3 {
   animation: fade-2 $fade-duration;
   background: linear-gradient(
-    5deg,
+    4deg,
     rgb(253,	157,	106	) ,
     rgb(253,	181,	106		) 3%,
     rgb(250,	246,	222		) 10%,
@@ -97,7 +93,7 @@ $fade-duration: 60s;
 .background-4 {
   animation: fade-3 $fade-duration;
   background: linear-gradient(
-    5deg,
+    3deg,
     rgb(255,	250,	130		) ,
     rgb(254,	254,	216			) 5%,
     rgb(248,	231,	230			) 15%,
@@ -112,7 +108,7 @@ $fade-duration: 60s;
 .background-5 {
   animation: fade-4 $fade-duration;
   background: linear-gradient(
-    5deg,
+    3deg,
     rgb(238,	148,	81			) ,
     rgb(250,	204,	129				) 5%,
     rgb(253,	250,	224				) 15%,
@@ -126,7 +122,7 @@ $fade-duration: 60s;
 .background-6 {
   animation: fade-5 $fade-duration;
   background: linear-gradient(
-    5deg,
+    3deg,
     rgb(229,	148,	93				) ,
     rgb(253,	199,	127					) 5%,
     rgb(249,	220,	160					) 10%,
@@ -140,7 +136,7 @@ $fade-duration: 60s;
 .background-7 {
   animation: fade-6 $fade-duration;
   background: linear-gradient(
-    5deg,
+    2deg,
     rgb(250,	239,	208					) ,
     rgb(227,	231,	209						) 5%,
     rgb(211,	222,	216						) 15%,
@@ -153,7 +149,7 @@ $fade-duration: 60s;
 .background-8 {
   animation: fade-7 $fade-duration;
   background: linear-gradient(
-    5deg,
+    2deg,
     rgb(182,	192,	193						) ,
     rgb(166,	185,	200							) 10%,
     rgb(145,	167,	192							) 15%,
@@ -167,7 +163,7 @@ $fade-duration: 60s;
 .background-9 {
   animation: fade-8 $fade-duration;
   background: linear-gradient(
-    5deg,
+    2deg,
     rgb(227,	230,	233							) ,
     rgb(208,	222,	239								) 10%,
     rgb(184,	206,	235								) 20%,
